@@ -1,0 +1,112 @@
+adb => contraintes => risques
+
+AdB : besoin des clients, 
+
+contraintes: cadrages , referentiel, analyse
+
+risques: probabilité impact detectabilité : cartographie des risques
+
+3 solutions qui premettent de reduire les risques avec le chiffrage financier
+
+temps le plus court * temps le plus long * (temps moyen * 4 )/ 6 = temps approximation
+
+ A | m | b | Te | 6œ
+--------------------
+   |   |   |    |
+--------------------
+   |   |   |    |
+
+6œ = (b - a / 6 )2
+
+
+donnée optimiste (a)
+donnée pessimiste (b)
+donnée probable (m)
+
+rythme 15 min réu repeat
+
+analyse des besoin du client:
+
+assurance vie, site de vente d'assurance vie en ligne, pea , investissement financier, dependant du monde de lassurance, cible client = cadre, 
+
+contraintes fortes, hebergement autonome et securitées des données , certitude, verification de l'integrité financiere du contractant FIBEN sur-endetement. expatrié.FICO
+
+
+question à poser au client:
+	-demander si les offres sont vallables pour les entreprises
+	-demander si pôssibilité d'appel pour du conseil telephonique
+	-demander si il y a migration de la base de donnée cliente éxistante
+	-
+
+analyse des besoins:
+-interface web , client/admin(localhost)
+	-prevoir un contact telephonique
+	-mentions legales CLUF
+	-FAQ
+	-cloisonner les données souscripteur et client potentiel BDD		
+	-document papier des contrat pour les cloner
+	-soit un backoffice soit un envoi par mail à l'operateur de l'assurance
+	-charte graphique donc DESIGNER
+	-presentation des differentes offres
+	-procedure de verification des donnée: identité, compte bancaire, banquer de france.
+	-certificat https
+	-module de payement par carte bleu
+	-documents scanné par formulaire d'envoie sur serveur de donnée
+	-declarer les données clients à la CNIL
+	-serveur mail pour les envoi de confirmation/compte/client.
+
+securité:
+	-automatiser la verification tout en gardant un operateur humain en bout de chaine pour valider les informations sur papier.
+	-proposition deployement des serveurs sur un datacenter(avantage redondance,fiabilité,cout reduit, gardiennage et securité physique)
+	-proposition de deployement des serveurs en local chez le client(avantage pas de delegation de confiance, cout plus élevé en main d'oeuvre(gardien))
+	-audit automatisé des log+ externalisation
+	-audit manuel des log + externalisation
+	-crypter les donnée sur le poste client avant envoie
+	-crypter les données sur le serveur
+	-tout faire passer en https
+	-sauvegarde automatique
+
+partier web:
+
+	designer 3K/4K mois.
+	dev web 3k/4k  mois.
+	SEO 3K/4K mois
+	stagiaire 1.5k brut mois.
+	consultant securité 1000€ audit et contre audit.
+	firewall. 1000€~10 000€. location à cout marginal chez hebergeur.
+
+
+DESIGNER : 
+
+temps approximatif le plus court: 20 jours
+temps approximatif le plus long: 40 jours
+temps probable : 30 jours
+
+temps formule : 30 jours
+
+variance : 25 jours
+
+CODEUR WEB: 
+
+temps approximatif le plus court:  45 jours
+temps approximatif le plus long: 90 jours
+temps probable : 60 jours.
+
+temps formule : 62.5 jours
+
+variance : 56.25 jours
+
+CODEUR SEO:
+
+temps approximatif le plus court: 10 jours
+temps approximatif le plus long: 30 jours
+temps probable :  20 jours.
+
+temps formule : 20 jours
+
+variance : 10 jours.
+
+planning prévisionnel:
+
+	designer et codeur web, travaillent en simultané
+	codeur SEO travail apres la derniere livraison code; 
