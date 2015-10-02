@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="tache coder web" company="" webLink="http://" view-date="2015-09-01" view-index="0" gantt-divider-location="273" resource-divider-location="300" version="2.7.1" locale="fr_FR">
+    <description><![CDATA[detail du planing codeur web]]></description>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="56" order="0"/>
+        <field id="tpd4" name="Date de début" width="21" order="1"/>
+        <field id="tpd5" name="Date de fin" width="21" order="2"/>
+        <timeline><![CDATA[0]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0000 #003333 #00cccc #ff6666]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="56" order="0"/>
+        <field id="1" name="Rôle par défaut" width="43" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="architecture serveur" color="#ff6666" meeting="false" start="2015-09-01" duration="2" complete="0" expand="true">
+            <notes><![CDATA[création architecture serveur
+
+os:
+	linux
+logiciel:
+	apache,php,nodeJS,mysql
+sauvegarde
+nom de domaine
+]]></notes>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="creation du moteur de page" color="#ff6666" meeting="false" start="2015-09-03" duration="4" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="migration de la base de donnée" color="#ff6666" meeting="false" start="2015-09-09" duration="4" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="reunion graphiste" meeting="false" start="2015-09-15" duration="1" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="formulaire d'inscription et d'identification" color="#ff6666" meeting="false" start="2015-09-16" duration="3" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="reunion avec le graphiste" meeting="false" start="2015-09-21" duration="1" complete="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="creation des formulaires de contrat" color="#ff6666" meeting="false" start="2015-09-22" duration="15" complete="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" name="reunion avec le graphiste" meeting="false" start="2015-10-13" duration="1" complete="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" name="page d'entree(menu)" color="#ff6666" meeting="false" start="2015-10-14" duration="3" complete="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" name="reunion avec le graphiste" meeting="false" start="2015-10-19" duration="1" complete="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" name="page de contact et info legales" color="#ff6666" meeting="false" start="2015-10-20" duration="2" complete="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" name="creation de l'interface d'administration" color="#ff6666" meeting="false" start="2015-10-22" duration="10" complete="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" name="audit de securité" color="#ff6666" meeting="false" start="2015-11-05" duration="5" complete="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" name="reunion audit/dev" meeting="false" start="2015-11-12" duration="1" complete="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="modification de securité" color="#ff6666" meeting="false" start="2015-11-13" duration="13" complete="0" expand="true">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" name="contre audit" color="#ff6666" meeting="false" start="2015-12-02" duration="5" complete="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" name="modification du contre audit" color="#ff6666" meeting="false" start="2015-12-09" duration="5" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="151" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="59" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="59" visible="true"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd13" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

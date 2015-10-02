@@ -36,7 +36,6 @@ question à poser au client:
 	-demander si les offres sont vallables pour les entreprises
 	-demander si pôssibilité d'appel pour du conseil telephonique
 	-demander si il y a migration de la base de donnée cliente éxistante
-	-
 
 analyse des besoins:
 -interface web , client/admin(localhost)
@@ -109,4 +108,23 @@ variance : 10 jours.
 planning prévisionnel:
 
 	designer et codeur web, travaillent en simultané
-	codeur SEO travail apres la derniere livraison code; 
+	codeur SEO travail apres la derniere livraison code;
+
+detail des taches a effectuer par le codeur web:
+
+-architecture serveur  /node js   a: 1 b: 5 m: 2 
+-moteur de page. php / html / css a: 2 b: 8 m: 4
+-migration de la base de donnée éxistante. a: 2 b: 8 m: 4
+	-reunion avec le graphiste
+-formulaire d'inscription et d'identification des clients. php / html / css / sql a: 2 b: 4 m: 3 
+	-réunion avec le graphiste
+-création des pages: -formulaires de contrat php / html / css / sql  a: 10 b: 20 m: 15 
+					 		-reunion avec le graphiste
+					 -page d'entrée (menu) php /html /css a: 2 b: 4 m: 3
+					 		-reunion avec le graphiste
+					 -info légales (contact), faq. php /html /css a: 1 b:3 m: 2
+-création interface d'administration du site: a:5 b:15 m: 10
+												-gestion des logs
+												-ajout suppression et changement de contrat.
+-audit de securité 
+-modifications selon les conseils de l'audit. a:10 b:15 m:13
